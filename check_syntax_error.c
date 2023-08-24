@@ -1,7 +1,11 @@
 #include "holberton.h"
 
 /**
- * raaaaaaaaaaaaaaaaaaaaa
+ * repeated_char - counts the repetitions of a char
+ *
+ * @input: input string
+ * @i: index
+ * Return: repetitions
  */
 int repeated_char(char *input, int i)
 {
@@ -12,7 +16,13 @@ int repeated_char(char *input, int i)
 }
 
 /**
- * error_aaaaaaaaaaaaaaaaaaaaaaaa
+ * error_sep_op - finds syntax errors
+ *
+ * @input: input string
+ * @i: index
+ * @last: last char read
+ * Return: index of error. 0 when there are no
+ * errors
  */
 int error_sep_op(char *input, int i, char last)
 {
@@ -59,7 +69,11 @@ int error_sep_op(char *input, int i, char last)
 }
 
 /**
- * firaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ * first_char - finds index of the first char
+ *
+ * @input: input string
+ * @i: index
+ * Return: 1 if there is an error. 0 in other case.
  */
 int first_char(char *input, int *i)
 {
@@ -79,7 +93,13 @@ int first_char(char *input, int *i)
 }
 
 /**
- * print_syntax_erroraaaaaaaaaaaaaaaaaaaaaaa
+ * print_syntax_error - prints when a syntax error is found
+ *
+ * @datash: data structure
+ * @input: input string
+ * @i: index of the error
+ * @bool: to control msg error
+ * Return: no return
  */
 void print_syntax_error(data_shell *datash, char *input, int i, int bool)
 {
@@ -126,7 +146,12 @@ void print_syntax_error(data_shell *datash, char *input, int i, int bool)
 }
 
 /**
- * checaaaaaaaaaaaaaaaaaaaaaaaaaa
+ * check_syntax_error - intermediate function to
+ * find and print a syntax error
+ *
+ * @datash: data structure
+ * @input: input string
+ * Return: 1 if there is an error. 0 in other case
  */
 int check_syntax_error(data_shell *datash, char *input)
 {

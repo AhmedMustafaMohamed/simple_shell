@@ -1,7 +1,12 @@
 #include "holberton.h"
 
 /**
- * aaaaaaaaaaaaa
+ * _memcpy - copies information between void pointers.
+ * @newptr: destination pointer.
+ * @ptr: source pointer.
+ * @size: size of the new pointer.
+ *
+ * Return: no return.
  */
 void _memcpy(void *newptr, const void *ptr, unsigned int size)
 {
@@ -14,7 +19,14 @@ void _memcpy(void *newptr, const void *ptr, unsigned int size)
 }
 
 /**
- * aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ * _realloc - reallocates a memory block.
+ * @ptr: pointer to the memory previously allocated.
+ * @old_size: size, in bytes, of the allocated space of ptr.
+ * @new_size: new size, in bytes, of the new memory block.
+ *
+ * Return: ptr.
+ * if new_size == old_size, returns ptr without changes.
+ * if malloc fails, returns NULL.
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
@@ -46,7 +58,14 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 }
 
 /**
- * _aaaaaaaaaaaaaaaaaaaaaaa
+ * _reallocdp - reallocates a memory block of a double pointer.
+ * @ptr: double pointer to the memory previously allocated.
+ * @old_size: size, in bytes, of the allocated space of ptr.
+ * @new_size: new size, in bytes, of the new memory block.
+ *
+ * Return: ptr.
+ * if new_size == old_size, returns ptr without changes.
+ * if malloc fails, returns NULL.
  */
 char **_reallocdp(char **ptr, unsigned int old_size, unsigned int new_size)
 {

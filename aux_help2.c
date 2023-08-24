@@ -1,7 +1,8 @@
 #include "holberton.h"
 
 /**
- * aaaaaaaaaaaaaaaaaaa
+ * aux_help - Help information for the builtin help.
+ * Return: no return
  */
 void aux_help(void)
 {
@@ -14,7 +15,8 @@ void aux_help(void)
 	write(STDOUT_FILENO, help, _strlen(help));
 }
 /**
- * aaaaaaaaaaaaaaaaaaaaaaaaaaa
+ * aux_help_alias - Help information for the builtin alias.
+ * Return: no return
  */
 void aux_help_alias(void)
 {
@@ -25,7 +27,8 @@ void aux_help_alias(void)
 	write(STDOUT_FILENO, help, _strlen(help));
 }
 /**
- * aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ * aux_help_cd - Help information for the builtin alias.
+ * Return: no return
  */
 void aux_help_cd(void)
 {

@@ -1,7 +1,11 @@
 #include "holberton.h"
 
 /**
- * mmmmmmmmmmmmmmmmm
+ * cd_dot - changes to the parent directory
+ *
+ * @datash: data relevant (environ)
+ *
+ * Return: no return
  */
 void cd_dot(data_shell *datash)
 {
@@ -48,7 +52,11 @@ void cd_dot(data_shell *datash)
 }
 
 /**
- * cd_tokkkkkkkkkkkkk
+ * cd_to - changes to a directory given
+ * by the user
+ *
+ * @datash: data relevant (directories)
+ * Return: no return
  */
 void cd_to(data_shell *datash)
 {
@@ -79,7 +87,10 @@ void cd_to(data_shell *datash)
 }
 
 /**
- * aaaaaaaaaaaaaaaa
+ * cd_previous - changes to the previous directory
+ *
+ * @datash: data relevant (environ)
+ * Return: no return
  */
 void cd_previous(data_shell *datash)
 {
@@ -118,7 +129,10 @@ void cd_previous(data_shell *datash)
 }
 
 /**
- * aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ * cd_to_home - changes to home directory
+ *
+ * @datash: data relevant (environ)
+ * Return: no return
  */
 void cd_to_home(data_shell *datash)
 {

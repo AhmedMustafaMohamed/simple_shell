@@ -1,7 +1,9 @@
 #include "holberton.h"
 
 /**
- * aaaaaaaaaaaaaaaaaaaaaaaa
+ * get_len - Get the lenght of a number.
+ * @n: type int number.
+ * Return: Lenght of a number.
  */
 int get_len(int n)
 {
@@ -26,7 +28,9 @@ int get_len(int n)
 	return (lenght);
 }
 /**
- * aaaaaaaaaaaaaaaaaaaaaaaa
+ * aux_itoa - function converts int to string.
+ * @n: type int number
+ * Return: String.
  */
 char *aux_itoa(int n)
 {
@@ -62,7 +66,9 @@ char *aux_itoa(int n)
 }
 
 /**
- * _aaaaaaaaaaaaaaaaaaaa
+ * _atoi - converts a string to an integer.
+ * @s: input string.
+ * Return: integer.
  */
 int _atoi(char *s)
 {
